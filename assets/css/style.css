@@ -390,7 +390,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: var(--primary-color);
 }
 
 .about-me .content ul {
@@ -442,7 +442,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: var(--primary-color);
   border-radius: 50px;
   line-height: 0;
 }
@@ -496,7 +496,20 @@ section .container {
   transition: .9s;
   background-color: #18d26e;
 }
+.skills .skills-content ul {
+  list-style: none;
+  padding: 0;
+}
+.skills .skills-content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: var(--primary-color);
+  line-height: 0;
+}
 
+.skills .skills-content h6{
+  padding-top: 10px;
+}
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
